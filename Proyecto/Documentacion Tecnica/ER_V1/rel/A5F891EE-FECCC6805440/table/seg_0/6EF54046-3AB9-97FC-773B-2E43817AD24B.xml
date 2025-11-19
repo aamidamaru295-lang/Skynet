@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6EF54046-3AB9-97FC-773B-2E43817AD24B" name="TRANSACCIONES">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:56:08 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN" id="3147A5EF-A735-C8B0-DDF8-956188AD6025">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:01:29 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="75EA680F-2EDE-A658-876D-DA009AAF3A54">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:01:29 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C38AD49-217C-510A-5BDC-B8496087BD40" referredColumn="F6879D69-78A2-113A-E319-EAEA9B0568A4"/>
+</associations>
+</Column>
+<Column name="FECHA" id="1D080794-386E-80CB-3D9F-769ED66DB2F7">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:01:29 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_TOTAL" id="379A9283-64B8-304F-C771-23E151811A0C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:01:29 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,16,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7E4A89F-6740-3748-05B0-87B1E3D44FAB" name="TRANSACCIONES_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:01:29 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3147A5EF-A735-C8B0-DDF8-956188AD6025"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="313C3E25-057C-40D3-57A8-EC119191E4A1" name="TRANSACCIONES_CLIENTE_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:17:37 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75EA680F-2EDE-A658-876D-DA009AAF3A54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

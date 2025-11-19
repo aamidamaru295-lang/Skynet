@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4DE71022-C99A-6FCA-AE84-61157D9C3B75" name="TECNICOS">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:45:01 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TECNICO" id="BA27A377-2B69-0D73-EDFF-78CBFDA22EC8">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SUCURSAL" id="B9D17351-88F8-387E-BDF3-4C79F61AB0B0">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BA8CC23-46A2-46A7-8B99-F118514CE5D8" referredColumn="68B1A40D-B467-A7A6-33F6-51413B3F6145"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="D9FDA0E6-FE70-4F6E-4F41-11A3BC476C2B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="20ECFDB7-4667-A622-CFB9-6E6A6735BDCE">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPI" id="886C1F83-EFEE-4FE5-6E81-8351B7DB8F73">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A8E2338-908B-458A-388E-B8E0E52CA239" name="TECNICOS_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:47:47 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA27A377-2B69-0D73-EDFF-78CBFDA22EC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26DA937F-7B0D-C05E-DC89-AD0856010949" name="TECNICOS_SUCURSALES_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:41:51 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9D17351-88F8-387E-BDF3-4C79F61AB0B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

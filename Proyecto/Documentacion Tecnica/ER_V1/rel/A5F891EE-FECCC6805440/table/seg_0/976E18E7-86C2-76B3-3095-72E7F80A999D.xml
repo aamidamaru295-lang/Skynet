@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="976E18E7-86C2-76B3-3095-72E7F80A999D" name="SUCURSALES">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:48:51 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUCURSAL" id="68B1A40D-B467-A7A6-33F6-51413B3F6145">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:50:07 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESC_SUCURSAL" id="33151D3D-4A53-130E-0F6A-6BEB84FCCD2C">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:50:07 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="2871B0B2-E467-E2D9-2D0F-DA3FF50E2F16">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:50:07 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F82F797-5160-D44A-305C-F52EA1FB0C54" name="SUCURSALES_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:50:07 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68B1A40D-B467-A7A6-33F6-51413B3F6145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

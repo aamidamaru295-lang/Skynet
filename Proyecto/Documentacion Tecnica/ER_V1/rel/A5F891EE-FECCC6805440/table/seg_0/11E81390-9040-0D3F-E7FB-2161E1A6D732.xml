@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11E81390-9040-0D3F-E7FB-2161E1A6D732" name="CLIENTE">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:22:21 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="F6879D69-78A2-113A-E319-EAEA9B0568A4">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="3F3019D6-4894-CB6C-8514-1C7F83D8C27E">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="TELEFONO" id="40CE7E76-66A4-5A17-C5D7-9E381EFCD206">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="DAADEFDB-DCA5-CBBD-D6E8-34AC65F798C5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO" id="AC872682-17AD-6281-6C23-C242031BDC79">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIT" id="13CEDB6F-AF7B-B3E6-0574-61A79CCC7AB3">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COORDENADAS" id="1940817C-7FD5-2E9B-1CEB-8270BA3505B6">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="46105BD6-720B-6549-6B04-3E5356F0122B" name="CLIENTE_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 20:32:03 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6879D69-78A2-113A-E319-EAEA9B0568A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

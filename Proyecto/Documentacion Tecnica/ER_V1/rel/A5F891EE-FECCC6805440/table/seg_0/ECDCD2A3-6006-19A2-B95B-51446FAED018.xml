@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECDCD2A3-6006-19A2-B95B-51446FAED018" name="TRANSACCIONES_DET">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:02:54 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ORDEN" id="E4FA78CC-E9E3-0CF5-0ADD-BEAD45FBC63B">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4CB90B7-7163-AA48-128A-16549FE1D283" referredColumn="3147A5EF-A735-C8B0-DDF8-956188AD6025"/>
+</associations>
+</Column>
+<Column name="ID_CLIENTE" id="F3963241-3481-3678-330F-AD7A4DBAF9E3">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_SERVICIO" id="E3A8AC1A-52D1-E63D-123E-F7CD3A797B0D">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94A50410-F4F3-9653-8AA6-256E15C5DE0E" referredColumn="B6B8D910-833D-7978-23E4-BFF76444617F"/>
+</associations>
+</Column>
+<Column name="ID_SUCURSAL" id="18AD36F4-2E1D-E75A-7FE9-DB250CB657E0">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9ABFC14-5588-983E-7134-DF3A0A02EE25" referredColumn="68B1A40D-B467-A7A6-33F6-51413B3F6145"/>
+</associations>
+</Column>
+<Column name="FECHA_VISITA" id="6E926D11-0C6D-8069-C97F-5FAB7CA325C5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORA_VISITA" id="CEFD23A3-D73E-8BFF-5443-45F61235E7D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_VISITA" id="F995DB84-0A88-888F-ACD4-EF6ACCB1C6B9">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="28188778-3C36-ED19-DCA7-578C5B09DA86">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,16,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="5E1C2867-8398-8111-C72A-56C8F8CE6C90">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13643632-309B-4468-0053-07F361C5B30F" name="TRANSACCIONES_DET_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:13:49 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4FA78CC-E9E3-0CF5-0ADD-BEAD45FBC63B"/>
+<colUsage columnID="E3A8AC1A-52D1-E63D-123E-F7CD3A797B0D"/>
+<colUsage columnID="18AD36F4-2E1D-E75A-7FE9-DB250CB657E0"/>
+<colUsage columnID="F3963241-3481-3678-330F-AD7A4DBAF9E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ACC0345D-C3DF-AAF3-3E5C-AE26C602583A" name="TRANSACCIONES_DET_SERVICIOS_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:23:52 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3A8AC1A-52D1-E63D-123E-F7CD3A797B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E9A8076-5472-DF67-B818-B08E21A05B56" name="TRANSACCIONES_DET_TRANSACCIONES_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:39:39 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4FA78CC-E9E3-0CF5-0ADD-BEAD45FBC63B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99BA92D4-F291-D227-D39A-1EB0C7CF30D5" name="TRANSACCIONES_DET_SUCURSALES_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2025-09-28 21:41:23 UTC</createdTime>
+<ownerDesignName>ER_V1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18AD36F4-2E1D-E75A-7FE9-DB250CB657E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
